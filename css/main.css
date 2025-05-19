@@ -1,0 +1,82 @@
+:root {
+  --primary: #ff8000;
+  --accent: #27ae60;
+  --hover-accent: #1e8449;
+  --text: #333;
+  --bg: #fff9f4;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  gap: 10px;
+}
+
+#logo {
+  height: 50px;
+}
+
+nav a,
+#logout-btn {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+#promo-section img {
+  transform: scale(0.8); /* Thu nhỏ hình ảnh lại */
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+.container {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.left-sidebar,
+.right-sidebar {
+  flex: 0 0 200px;
+}
+
+.left-sidebar img,
+.right-sidebar img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+main {
+  flex: 1;
+}

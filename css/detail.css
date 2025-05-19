@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff8c00;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+#product-detail {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#product-detail h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#product-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#product-detail p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+#product-detail .price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e67e00;
+}
+
+#product-detail button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#product-detail button:hover {
+    background-color: #e67e00;
+}
+
+/* Thông báo thêm vào giỏ hàng */
+.notification {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.notification.show {
+    display: block;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
