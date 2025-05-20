@@ -6,5 +6,5 @@ const products = [
     { id: 5, name: "Trà Sữa Khoai Môn", price: 38000, image: "images/product5.jpg" },
     { id: 6, name: "Trà Sữa Oolong", price: 36000, image: "images/product6.jpg" },
     { id: 7, name: "Trà đào", price: 36000, image: "images/product7.jpg" },
-    { id: 8, name: "Trà vair", price: 36000, image: "images/product8.jpg" }
+    { id: 8, name: "Trà vải", price: 36000, image: "images/product8.jpg" }
 ];
