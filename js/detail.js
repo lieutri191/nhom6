@@ -14,6 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>Giá: ${product.price.toLocaleString()} VND</p>
         <button id="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}">Thêm vào giỏ hàng</button>
     `;
+        detailDiv.innerHTML = `
+        <h2>${product.name}</h2>
+        <img src="${product.image}" alt="${product.name}">
+        <p class="price">${product.price.toLocaleString()} VND</p>
+        <p>Mô tả sản phẩm: Trà sữa với hương vị đặc trưng, ngọt ngào, dễ uống. Một sự lựa chọn tuyệt vời cho mọi lứa tuổi.</p>
+        <button id="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}">Thêm vào giỏ hàng</button>
+    `;
 
     // Hàm hiển thị thông báo
     function showNotification(message) {
